@@ -1,6 +1,8 @@
 const codes = [
   "ArrowUp",
   "ArrowUp",
+  "ArrowUp",
+  "ArrowUp",
   "ArrowDown",
   "ArrowDown",
   "ArrowLeft",
