@@ -14,6 +14,10 @@ const codes = [
 let index = 0;
 function init() {
   // your code here
-  
+  function onKeydownHandler(e){
+    if (codes[0] === e.which) {
+      
+    }
+  }
   document.body.addEventListener("")
 }
