@@ -18,8 +18,9 @@ function init() {
     if (codes[index] === e.key) {
       alert(e.key + " is pressed correctly")
       index++
-     
     }
   }
   document.body.addEventListener(f)
 }
+
+init()
