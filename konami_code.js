@@ -20,7 +20,7 @@ function init() {
       index++
     }
   }
-  document.body.addEventListener(f)
+  document.body.addEventListener("keydown", f)
 }
 
 init()
