@@ -14,12 +14,12 @@ const codes = [
 let index = 0;
 function init() {
   // your code here
-  function onKeydownHandler(e){
+  const f = function onKeydownHandler(e){
     if (codes[index] === e.key) {
-      alert('')
+      alert(e.key + " is pressed correctly")
       index++
      
     }
   }
-  document.body.addEventListener("")
+  document.body.addEventListener(f)
 }
