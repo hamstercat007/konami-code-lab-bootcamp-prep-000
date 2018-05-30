@@ -18,5 +18,6 @@ function init() {
       console.log(e.key + " is pressed correctly")
       index++
     }
+    alert("Well done")
   })
 }
