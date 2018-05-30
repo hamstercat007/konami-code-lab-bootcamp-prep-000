@@ -16,8 +16,9 @@ function init() {
   // your code here
   function onKeydownHandler(e){
     if (codes[index] === e.key) {
-      index++
       alert('')
+      index++
+     
     }
   }
   document.body.addEventListener("")
