@@ -17,7 +17,11 @@ function init() {
     if (codes[index] === e.key) {
       console.log(e.key + " is pressed correctly")
       index++
+      
+      if (index === codes.length) {
+        alert("Well done!")
+      }
     }
-    alert("Well done")
+ 
   })
 }
