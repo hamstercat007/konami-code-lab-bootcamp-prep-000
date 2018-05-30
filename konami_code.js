@@ -16,7 +16,7 @@ function init() {
   // your code here
   const f = function onKeydownHandler(e){
     if (codes[index] === e.key) {
-      alert(e.key + " is pressed correctly")
+      console.log(e.key + " is pressed correctly")
       index++
     }
   }
